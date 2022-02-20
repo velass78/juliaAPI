@@ -7,7 +7,7 @@ import Base.convert
 
 
 
-Genie.config.run_as_server = true
+# Genie.config.run_as_server = true
 
 convert(::Type{Int}, s::AbstractString) = parse(Int, s)
 
